@@ -46,7 +46,7 @@ IslandDB[4520749081] = {
 --  Este mapa tem os seas 2 e 3 separados por coordenada X
 -- ─────────────────────────────────────────────────────────────────────
 IslandDB[6381829480] = {
-    name     = "King Legacy",
+    name     = "King Legacy — Sea 2",
     placeIds = { 6381829480 },
     detectSea = function()
         local ok, val = pcall(function()
@@ -141,21 +141,18 @@ IslandDB[2753915549] = {
     },
 }
 
--- ─────────────────────────────────────────────────────────────────────
---  Adicione novos jogos AQUI seguindo o mesmo padrão.
---  Exemplo:
---
  IslandDB[15759515082] = {
-     name     = "King Legacy",
+     name     = "King Legacy — Sea 3",
      placeIds = { 15759515082 },
      detectSea = function() return 1 end,   -- sem seas: sempre retorna 1
      seas = {
          [1] = {
-             { Title = "Ilha 1", pos = Vector3.new(X, Y, Z) },
+             { Title = "Ilha 1", pos = Vector3.new(2174.659912109375, 35.610984802246094, 1308.9000244130625) },
              { Title = "Ilha 2", pos = Vector3.new(X, Y, Z) },
          },
      },
  }
+ 
 -- ─────────────────────────────────────────────────────────────────────
 
 -- expõe o DB globalmente para o Source.lua
