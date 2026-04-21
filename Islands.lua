@@ -152,7 +152,7 @@ IslandDB[2753915549] = {
              { Title = "Drakenhold Fortress {4400}", pos = Vector3.new(-933.8525390625, 17.779321670532227, -7669.59716796875) },
              { Title = "Forgotten Coliseum {4550}", pos = Vector3.new(-4465.654296875, 22.248180389404297, 568.4514770507812) },
              { Title  = "Land of Detention {4800}", pos = Vector3.new(9986.583984375, 35.843955993652344, 1186.517822265625) },
-             { Title = "Primeval Isle {5000}", pos = Vector3.new(-69965.10400390625, 67.58403778076172, 10911.1650390625) },
+             { Title = "Primeval Isle {5000}", pos = Vector3.new(-6965.10400390625, 67.58403778076172, 10911.1650390625) },
              { Title = "Luma Grove", pos = Vector3.new(-610.7909545898438, 187.6682891845703, 4013.5866699921875) },
              { Title = "Crownfall Isle", pos = Vector3.new(6539.3310546875, 31.258283615112305, -5521.24365234375) },
 
