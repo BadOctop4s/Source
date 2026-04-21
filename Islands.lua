@@ -142,7 +142,7 @@ IslandDB[2753915549] = {
      placeIds = { 15759515082 },
      detectSea = function() return 1 end,   -- sem seas: sempre retorna 1
      seas = {
-         [1] = {
+         [3] = {
              { Title = "The Unearthly {4000}", pos = Vector3.new(2174.659912109375, 35.610984802246094, 1308.9000244130625) },
              { Title = "The Shallow {4300}", pos = Vector3.new(3761.74072265625, 45.21211624145508, 8742.19140625) },
              { Title = "Drakenhold Fortress {4400}", pos = Vector3.new(-933.8525390625, 17.779321670532227, -7669.59716796875) },
