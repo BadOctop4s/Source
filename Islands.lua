@@ -24,7 +24,7 @@ local IslandDB = {}
 --  KING LEGACY — Sea 1  (PlaceId 4520749081)
 -- ─────────────────────────────────────────────────────────────────────
 IslandDB[4520749081] = {
-    name      = "King Legacy — Sea 1",
+    name      = "King Legacy",
     placeIds  = { 4520749081 },   -- IDs que pertencem a este bloco
     -- Sea 1 é mapa único, não tem sub-seas por posição X
     detectSea = function() return 1 end,
@@ -46,7 +46,7 @@ IslandDB[4520749081] = {
 --  Este mapa tem os seas 2 e 3 separados por coordenada X
 -- ─────────────────────────────────────────────────────────────────────
 IslandDB[6381829480] = {
-    name     = "King Legacy — Sea 2",
+    name     = "King Legacy",
     placeIds = { 6381829480 },
     detectSea = function()
         local ok, val = pcall(function()
@@ -142,7 +142,7 @@ IslandDB[2753915549] = {
 }
 
  IslandDB[15759515082] = {
-     name     = "King Legacy — Sea 3",
+     name     = "King Legacy",
      placeIds = { 15759515082 },
      detectSea = function() return 1 end,   -- sem seas: sempre retorna 1
      seas = {
@@ -152,7 +152,7 @@ IslandDB[2753915549] = {
          },
      },
  }
- 
+
 -- ─────────────────────────────────────────────────────────────────────
 
 -- expõe o DB globalmente para o Source.lua
