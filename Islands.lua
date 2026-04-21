@@ -140,7 +140,7 @@ IslandDB[2753915549] = {
  IslandDB[15759515082] = {
      name     = "King Legacy",
      placeIds = { 15759515082 },
-     detectSea = function() return 3 end,   -- sem seas: sempre retorna 1
+     detectSea = function() return 1 end,   -- sem seas: sempre retorna 1
      seas = {
          [1] = {
              { Title = "The Unearthly {4000}", pos = Vector3.new(2174.659912109375, 35.610984802246094, 1308.9000244130625) },
