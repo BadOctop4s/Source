@@ -79,19 +79,15 @@ IslandDB[6381829480] = {
     end,
     seas = {
         [2] = {
-            { Title = "Sea 2 — Spawn",      pos = Vector3.new(3000, 10,  100) },
-            { Title = "Sea 2 — Dark Zone",  pos = Vector3.new(3600, 10,  600) },
-            { Title = "Sea 2 — Fire Isle",  pos = Vector3.new(4100, 10, -300) },
-            { Title = "Sea 2 — Thunder",    pos = Vector3.new(4700, 10,  400) },
-            { Title = "Sea 2 — Ice Cave",   pos = Vector3.new(5200, 10, -600) },
+            { Title = "Japan Island {2250}",      pos = Vector3.new(-4831.28857421875, 57.31357192993164, 113.37403869628906) },
+            { Title = "Skull Island {3025}",  pos = Vector3.new(-6522.67236328125, 58.43737030029297, 5691.46826171875) },
+            { Title = "loaf Island {3200}",  pos = Vector3.new(-797.4414672851562, 28.94536590576172, 7401.822265625) },
+            { Title = "Shered Endangering {3300}",    pos = Vector3.new(-639.520751953125, 44.71039581298828, -2141.509521484375) },
+            { Title = "Pirate Skull Island {3400}",   pos = Vector3.new(-9008.3388671875, 21.32468757763672, -5237.72021484375) },
+            { Title = "Soldier Headquater{3500}",   pos = Vector3.new(-9574.5810546875, 38.03893280029297, 950.9193115234375) },
+            { Title = "Fiore {3600}", pos = Vector3.new(4965.43310546875, 71.70644372866211, -2582.794677734375)}
         },
-        [3] = {
-            { Title = "Sea 3 — Spawn",      pos = Vector3.new(7200, 10,  100) },
-            { Title = "Sea 3 — Void Isle",  pos = Vector3.new(7900, 10, -400) },
-            { Title = "Sea 3 — Thunder",    pos = Vector3.new(8500, 10,  500) },
-            { Title = "Sea 3 — Final Boss", pos = Vector3.new(9200, 10,    0) },
-        },
-    },
+    }
 }
 
 -- ─────────────────────────────────────────────────────────────────────
